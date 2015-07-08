@@ -1,0 +1,157 @@
+@CHARSET "ISO-8859-1";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.itemDetail{
+	width:16%;	
+	margin:1em;
+	
+}
+
+#finalMessage{
+	display:none;
+	width:20%;
+	 padding: 2%;  
+  margin-bottom: 2%;
+	float:right;
+	background-color:#eef1ea;
+	 position: fixed;
+	 bottom: 10%;
+  	right: 20%;
+     
+}
+h1{
+	padding-left:10%;
+	padding-right:10%;
+}
+
+
+
+p{
+	text-align:center;
+}
+#row1, #row2, #row3 {
+ display: -webkit-flex;
+  display:flex;
+  border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+}
+
+
+body{
+	padding-top:2%;		
+	padding-bottom:3%; 
+	
+		
+	
+}
+#content1{
+	padding-left:10%;
+	padding-right:10%;
+}
+.title{
+	
+    width: 100%;    
+ 
+}
+
+
+
+#formDiv{
+margin-bottom:1%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#progressbar .ui-progressbar-value {
+    background-color: #c123de;
+    
+    
+  }
+  
+  .ui-widget-content {  
+  
+  padding-left: 10%;
+  
+  }
+
+input[type=submit] {
+	
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #c123de;
+  padding: 1px 18px 1px 18px;
+  font-weight:bold;
+  text-decoration: none;
+  cursor:pointer;
+
+	
+}
+
+input[type=submit]:hover {
+  background: #cd86db;
+  text-decoration: none;
+}
+
+#btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  background: #c123de;
+  padding: 1px;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+#btn:hover {
+  background: #cd86db;
+  text-decoration: none;
+}
+
+/*pagination*/
+
+ul.simple-pagination {
+	list-style: none;
+}
+
+.simple-pagination {
+	display: block;
+	overflow: hidden;
+	padding: 0 5px 5px 0;
+	margin: 0;
+	
+}
+
+.simple-pagination ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.simple-pagination li {
+	list-style: none;
+	padding: 1%;
+	margin: 0;
+	float: left;
+	
+}
+
+#pagination {   
+	padding-left:10%;
+	padding-right:10%;
+	display:none;
+    bottom: 0;
+    width: 100%;
+}
